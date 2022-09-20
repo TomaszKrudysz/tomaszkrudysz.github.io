@@ -1,6 +1,84 @@
-td{
-    text-align: center;
+body {
+    font-family: 'Nunito';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://picsum.photos/id/237/200/300"); */
 }
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: coral;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    text-indent: 50px;
+}
+
+table {
+    text-align: center;
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+footer strong {
+    text-decoration: underline wavy;
+}
+
+mark {
+    border-radius: 5px;
+}
+div#main-content {
+    background-color: #CACACA;
+    padding: 20px;
+    border-style: double;
+}
+
+a:hover { /* pseudoklasa :hover zmienia właściwości elementu dopiero po najechaniu na niego wskaźnikiem myszy*/
+    color: violet;
+}
+table tr:first-child {/*pseudoklasa tr:first-child pozwala na stylowanie wyglądu pierwszego dziecka elementu, w tym przypadku wiersza tabeli*/
+    color: aqua;
+}
+
+span {
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* header a {
+    float: right;
+}
+header h1 {
+    float: left;
+}
+
+#articles {
+    padding: 30px;
+    padding-right: 100px;
+    float: left;
+} */
+
+
+
+
+
+
+
 
 /* body {
     color: green;
@@ -15,11 +93,11 @@ p {
     color: gold;
 } */
 
-.first-class {
+/* .first-class {
     color:red;
 }
 h1 {
-    color: green;
+    color: green !important;
 }
 
 .third-class {
@@ -28,4 +106,4 @@ h1 {
 
 #first-id {
     color: blue;
-}
+} */
