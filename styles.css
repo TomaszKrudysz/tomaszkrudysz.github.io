@@ -40,7 +40,9 @@ mark {
 div#main-content {
     background-color: #CACACA;
     padding: 20px;
-    border-style: double;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row-reverse;
 }
 
 a:hover { /* pseudoklasa :hover zmienia właściwości elementu dopiero po najechaniu na niego wskaźnikiem myszy*/
@@ -53,13 +55,26 @@ table tr:first-child {/*pseudoklasa tr:first-child pozwala na stylowanie wygląd
 span {
     display: block;
 }
-
+#articles {
+    flex-grow: 1;
+ }
+#skills {
+    flex-grow: 1;
+    align-self: center;
+}
 header {
     display: flex;
     justify-content: space-between;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 
-
+}
 /* header a {
     float: right;
 }
