@@ -48,6 +48,13 @@ div#main-content {
 a:hover { /* pseudoklasa :hover zmienia właściwości elementu dopiero po najechaniu na niego wskaźnikiem myszy*/
     color: violet;
 }
+a {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
 table tr:first-child {/*pseudoklasa tr:first-child pozwala na stylowanie wyglądu pierwszego dziecka elementu, w tym przypadku wiersza tabeli*/
     color: aqua;
 }
